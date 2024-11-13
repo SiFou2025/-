@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0e5cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.creator-name {
+    color: #4a90e2;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #8b4513;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #a0522d;
+}
+
+.table-section {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #8b4513;
+    color: white;
+}
+
+.result-section {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.result-section h2 {
+    color: #8b4513;
+    font-size: 20px;
+}
+
+#totalProfit {
+    font-size: 24px;
+    color: #4caf50; /* يمكنك تعديل لون النص إذا أردت */
+    background-color: #ffeb3b; /* اللون الأصفر */
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.save-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.save-btn:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق حساب دخل القهوة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- اسم التطبيق هنا في الأعلى -->
+        <h1>تطبيق حساب دخل القهوة</h1> 
+        
+        <div class="input-section">
+            <label>الإيرادات:</label>
+            <input type="number" id="revenue" placeholder="0">
+            
+            <label>النفقات:</label>
+            <input type="number" id="expenses" placeholder="0">
+            
+            <button onclick="addEntry()">إضافة إدخال</button>
+        </div>
+        
+        <div class="table-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>التاريخ والوقت</th>
+                        <th>الإيرادات</th>
+                        <th>النفقات</th>
+                        <th>الربح</th>
+                        <th>خيارات</th>
+                    </tr>
+                </thead>
+                <tbody id="entriesTable">
+                    <!-- سيتم إضافة الإدخالات هنا -->
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="result-section">
+            <h2>إجمالي الربح:</h2>
+            <p id="totalProfit">0 دج</p>
+            <button onclick="saveToFileDirectly()" class="save-btn">حفظ العمل</button>
+        </div>
+        
+        <!-- اسم صاحب التطبيق في أسفل الصفحة -->
+        <h2 class="creator-name">إعداد بواسطة: سيف هادف</h2> 
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
